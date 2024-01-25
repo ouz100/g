@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+.box{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.posrel{
+    background: crimson;
+    position: relative;
+    /* left: 50px;
+    top: 100px;
+    z-index: 100; */
+}
+.parent{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background: salmon;
+    position: relative;
+}
+.element{
+    width: 100px;
+    height: 100px;
+    background: aliceblue;
+}
+.posAbs{
+    width: 100px;
+    height: 100px;
+    color: blueviolet;
+    position: sticky;
+    top: 10px;
+}
+.posfix{
+    background: yellowgreen;
+    position: fixed;
+    top:0;
+    right: 0;
+}
